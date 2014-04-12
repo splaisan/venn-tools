@@ -1,7 +1,7 @@
 venn-tools
 ==========
 
-R scripts to plot Venn diagrams for 2, 3 or 4 groups from pre-computed counts.
+R scripts to plot Venn diagrams for 2, 3 or 4 groups **from pre-computed counts**.
 
 # Introduction
 
