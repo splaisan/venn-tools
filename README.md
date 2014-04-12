@@ -24,8 +24,9 @@ Please read the respective package documentations if you wish to improve these s
 
 # How to Use the scripts
 
-Type the script name followed by -h or --help will list all available parameters (eg. *2DVenn.R -h*)
+Type the script name followed by -h or --help will list all available parameters
 
+**2DVenn.R -h**
 <pre>
 Usage: ./2DVenn.R [options]
 
