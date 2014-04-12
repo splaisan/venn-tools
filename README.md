@@ -32,9 +32,9 @@ The output of the three scripts with default parameters (empty venn plots)
 
 |               | 2D  | 3D  | 4D  |
 |---------------|-----|-----|-----|
-| color (-U 1)  | <img src="pictures/2Dvenn_color.png?raw=true" alt="2D color" style="width: 50px;"/> | <img src="pictures/3Dvenn_color.png?raw=true" alt="3D color" style="width: 50px;"/> | <img src="pictures/4Dvenn_color.png?raw=true" alt="4D color" style="width: 50px;"/> |
-| grey (-U 2)   | <img src="pictures/2Dvenn_grey.png?raw=true" alt="2D grey" style="width: 50px;"/> | <img src="pictures/3Dvenn_grey.png?raw=true" alt="3D grey" style="width: 50px;"/> | <img src="pictures/4Dvenn_grey.png?raw=true" alt="4D grey" style="width: 50px;"/> |
-| white (-U 3*) | <img src="pictures/2Dvenn_white.png?raw=true" alt="2D white" style="width: 50px;"/> | <img src="pictures/3Dvenn_white.png?raw=true" alt="3D white" style="width: 50px;"/> | <img src="pictures/4Dvenn_white.png?raw=true" alt="4D white" style="width: 50px;"/> |
+| color (-U 1)  | <img src="pictures/2Dvenn_color.png?raw=true" alt="2D color" style="width: 30px;"/> | <img src="pictures/3Dvenn_color.png?raw=true" alt="3D color" style="width: 30px;"/> | <img src="pictures/4Dvenn_color.png?raw=true" alt="4D color" style="width: 30px;"/> |
+| grey (-U 2)   | <img src="pictures/2Dvenn_grey.png?raw=true" alt="2D grey" style="width: 30px;"/> | <img src="pictures/3Dvenn_grey.png?raw=true" alt="3D grey" style="width: 30px;"/> | <img src="pictures/4Dvenn_grey.png?raw=true" alt="4D grey" style="width: 30px;"/> |
+| white (-U 3*) | <img src="pictures/2Dvenn_white.png?raw=true" alt="2D white" style="width: 30px;"/> | <img src="pictures/3Dvenn_white.png?raw=true" alt="3D white" style="width: 30px;"/> | <img src="pictures/4Dvenn_white.png?raw=true" alt="4D white" style="width: 30px;"/> |
 
 ------------
 
