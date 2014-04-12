@@ -30,27 +30,11 @@ Type the script name followed by -h or --help will list all available parameters
 
 The output of the three scripts with default parameters (empty venn plots)
 
-{| class="wikitable"
-! 
-! 2D
-! 3D
-! 4D
-|-
-| color (-U 1)
-| 2Dc
-| 3Dc
-| 4Dc
-|-
-| grey (-U 2)
-| 2Dg
-| 3Dg
-| 4Dg
-|-
-| white (-U 3*)
-| 2Dw
-| 2Dw
-| 4Dw
-|}
+|               | 2D  | 3D  | 4D  |
+|---------------|-----|-----|-----|
+| color (-U 1)  | 2Dc | 3Dc | 4Dc |
+| grey (-U 2)   | 2Dg | 3Dg | 4Dg |
+| white (-U 3*) | 2Dw | 2Dw | 4Dw |
 
 ------------
 
