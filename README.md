@@ -1,14 +1,13 @@
 venn-tools
 ==========
 
-R scripts to plot Venn diagrams for 2, 3 or 4 groups **from pre-computed counts**.
+Standalone R scripts to plot Venn diagrams for 2, 3 or 4 groups **from pre-computed counts**.
 
 # Introduction
 
+These scripts are meant for vizalization of summary counts obtained from CLI applications (e.g. intersect counts between several 'algorithm-X' runs of variant lists obtained by different callers or datasets). 
 
-This script is meant for vizalization of summary counts obtained from other CLI applications (eg intersect counts between several algorithm runs of variant lists obtained by different callers or datasets). 
-
-Unlike other such tools, the scripts take the counts from command-line arguments to plot them in the corresponding Venn area. The arguments allow some level of customization like generating white, grey;, or colored backgrounds venn diagrams.
+Unlike other such tools, the scripts take the counts passed by command-line arguments to plot the numbers in the corresponding Venn areas. The arguments allow some level of customization like generating white, grey;, or colored backgrounds venn diagrams (run with -h for more details).
 
 # Requirements
 
@@ -20,7 +19,7 @@ You will also need the following three [R] packages:
 * **colorfulVennPlot** [http://cran.r-project.org/web/packages/grid/](http://cran.r-project.org/web/packages/grid/) to actually plot the Venn diagrams.
 * **optparse** [http://cran.r-project.org/web/packages/grid/](http://cran.r-project.org/web/packages/grid/) to handle command line arguments.
 
-Please read the respective package documentations if you wish to improve these scripts.
+Installing the dependencies is documented on teh top of the code. Please read the respective package documentations if you wish to improve these scripts.
 
 # How to Use the scripts
 
