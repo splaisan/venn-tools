@@ -19,7 +19,7 @@ You will also need the following three [R] packages:
 * **colorfulVennPlot** [http://cran.r-project.org/web/packages/colorfulVennPlot/](http://cran.r-project.org/web/packages/colorfulVennPlot/) to actually plot the Venn diagrams.
 * **optparse** [http://cran.r-project.org/web/packages/optparse/](http://cran.r-project.org/web/packages/optparse/) to handle command line arguments.
 
-Installing the dependencies is documented on teh top of the code. Please read the respective package documentations if you wish to improve these scripts.
+Installing the dependencies is documented on the top of the code. Please read the respective package documentations if you wish to improve these scripts.
 
 # How to Use the scripts
 
@@ -70,6 +70,8 @@ The output of the three scripts with default parameters (empty venn plots)
 | white (-U 3*) | <img src="pictures/2Dvenn_white.png?raw=true" alt="2D white" style="width: 30px;"/> | <img src="pictures/3Dvenn_white.png?raw=true" alt="3D white" style="width: 30px;"/> | <img src="pictures/4Dvenn_white.png?raw=true" alt="4D white" style="width: 30px;"/> |
 <pre>'*' default is set to white</pre>
 ------------
+enjoy!
+
 <h4>Please send comments and feedback to [mailto:bits@vib.be](bits@vib.be)</h4>
 ------------
 
