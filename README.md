@@ -32,7 +32,7 @@ The output of the three scripts with default parameters (empty venn plots)
 
 |               | 2D  | 3D  | 4D  |
 |---------------|-----|-----|-----|
-| color (-U 1)  | ![2D color](pictures/2DVenn_color.png) | 3Dc | 4Dc |
+| color (-U 1)  | ![2D color](https://github.com/BITS-VIB/venn-tools/blob/master/pictures/2Dvenn_color.png?raw=true) | 3Dc | 4Dc |
 | grey (-U 2)   | 2Dg | 3Dg | 4Dg |
 | white (-U 3*) | 2Dw | 2Dw | 4Dw |
 
