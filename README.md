@@ -26,6 +26,39 @@ Please read the respective package documentations if you wish to improve these s
 
 Type the script name followed by -h or --help will list all available parameters (eg. *2DVenn.R -h*)
 
+<pre>
+Usage: ./2DVenn.R [options]
+
+
+Options:
+	-a A.COUNT, --a.count=A.COUNT
+		counts for A-only
+
+	-b B.COUNT, --b.count=B.COUNT
+		counts for B-only
+
+	-i AB.COUNT, --ab.count=AB.COUNT
+		counts for AB-intersect
+
+	-A A.LABEL, --a.label=A.LABEL
+		label for A
+
+	-B B.LABEL, --b.label=B.LABEL
+		label for B
+
+	-t TITLE, --title=TITLE
+		Graph Title
+
+	-o FILE, --file=FILE
+		file name for output [default: 2Dvenn.png]
+
+	-u FILL, --fill=FILL
+		fill with 1:colors, 2:greys or 3:white [default: 3]
+
+	-h, --help
+		Show this help message and exit
+</pre>
+
 # Example screenshots
 
 The output of the three scripts with default parameters (empty venn plots)
