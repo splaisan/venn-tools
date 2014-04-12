@@ -16,8 +16,8 @@ In order to use these scripts, you will need [R] and RScript installed on your c
 You will also need the following three [R] packages:
 
 * **grid** [http://cran.r-project.org/web/packages/grid/](http://cran.r-project.org/web/packages/grid/) required for *colorfulVennPlot* plotting.
-* **colorfulVennPlot** [http://cran.r-project.org/web/packages/grid/](http://cran.r-project.org/web/packages/grid/) to actually plot the Venn diagrams.
-* **optparse** [http://cran.r-project.org/web/packages/grid/](http://cran.r-project.org/web/packages/grid/) to handle command line arguments.
+* **colorfulVennPlot** [http://cran.r-project.org/web/packages/colorfulVennPlot/](http://cran.r-project.org/web/packages/colorfulVennPlot/) to actually plot the Venn diagrams.
+* **optparse** [http://cran.r-project.org/web/packages/optparse/](http://cran.r-project.org/web/packages/optparse/) to handle command line arguments.
 
 Installing the dependencies is documented on teh top of the code. Please read the respective package documentations if you wish to improve these scripts.
 
