@@ -70,7 +70,7 @@ The output of the three scripts with default parameters (empty venn plots)
 | white (-U 3*) | <img src="pictures/2Dvenn_white.png?raw=true" alt="2D white" style="width: 30px;"/> | <img src="pictures/3Dvenn_white.png?raw=true" alt="3D white" style="width: 30px;"/> | <img src="pictures/4Dvenn_white.png?raw=true" alt="4D white" style="width: 30px;"/> |
 <pre>'*' default is set to white</pre>
 ------------
-Please send comments and feedback to [mailto:bits@vib.be](bits@vib.be)
+<h4>Please send comments and feedback to [mailto:bits@vib.be](bits@vib.be)</h4>
 ------------
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png?raw=true)
