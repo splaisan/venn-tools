@@ -1,7 +1,7 @@
 #!/usr/bin/RScript
 
 # plots a 4D VENN from precomputed data
-# usage: 4Dvenn.R -A .. to .. -T
+# usage: 4Dvenn.R -a .. to .. -u (see below)
 
 # counts are expected in the order
 # "0100","0010","0110",1100",
