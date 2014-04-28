@@ -39,6 +39,8 @@ option_list <- list(
               help="label for B"), 
   make_option(c("-t", "--title"), type="character",
               help="Graph Title"),
+  make_option(c("-x", "--format"), type="integer", default=1,
+              help="file format for output 1:PNG, 2:PDF [default: %default]"),
   make_option(c("-o", "--file"), type="character", default="2Dvenn.png",
               help="file name for output [default: %default]"),
   make_option(c("-u", "--fill"), type="character", default="3",

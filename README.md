@@ -27,7 +27,7 @@ Type the script name followed by -h or --help will list all available parameters
 
 **2DVenn.R -h**
 <pre>
-Usage: ./2DVenn.R [options]
+Usage: /opt/biotools/bin/2DVenn.R [options]
 
 
 Options:
@@ -49,6 +49,9 @@ Options:
 	-t TITLE, --title=TITLE
 		Graph Title
 
+	-x FORMAT, --format=FORMAT
+		file format for output 1:PNG, 2:PDF [default: 1]
+
 	-o FILE, --file=FILE
 		file name for output [default: 2Dvenn.png]
 
@@ -57,6 +60,7 @@ Options:
 
 	-h, --help
 		Show this help message and exit
+
 </pre>
 
 # Example screenshots
