@@ -7,7 +7,7 @@ Standalone R scripts to plot Venn diagrams for 2, 3 or 4 groups **from pre-compu
 
 These scripts are meant for vizalization of summary counts obtained from CLI applications (e.g. intersect counts between several 'algorithm-X' runs of variant lists obtained by different callers or datasets). 
 
-Unlike other such tools, the scripts take the counts passed by command-line arguments to plot the numbers in the corresponding Venn areas. The arguments allow some level of customization like generating white, grey;, or colored backgrounds venn diagrams (run with -h for more details).
+Unlike other such tools, the scripts take the counts passed by command-line arguments to plot the numbers in the corresponding Venn areas. The arguments allow some level of customization like generating white, grey, or colored backgrounds venn diagrams (run with -h for more details).
 
 # Requirements
 

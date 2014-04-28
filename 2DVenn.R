@@ -64,11 +64,21 @@ my.fill <- ifelse( rep(opt$fill=="1", ncol),
 # title
 my.title <- ifelse(!is.null(opt$title), opt$title, "") 
 
+# format
+if (opt$format==1){
+# png
+filename <- paste(opt$file, ".png", sep="")
+png(file = filename, bg = "transparent")
+
+} else {
+# pdf
+filename <- paste(opt$file, ".pdf", sep="")
+pdf(file = filename, 
+	bg = "white")
+}
+
 # plot
-png(file = opt$file, bg = "transparent")
 plot.new()
-#c("red", "yellow", "green"),
-           
 plotVenn2d(c(opt$a.count, opt$b.count, opt$ab.count), 
            labels = c(opt$a.label, opt$b.label),
            Colors = my.fill,

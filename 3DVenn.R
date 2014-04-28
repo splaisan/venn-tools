@@ -78,21 +78,31 @@ my.fill <- ifelse( rep(opt$fill=="1", ncol),
 # title
 my.title <- ifelse(!is.null(opt$title), opt$title, "")
 
-# plot
-png(file = opt$file, bg = "transparent")
-plot.new()
-
 # "A..","AB.","A.C","ABC",".B.",".BC","..C"
 y=c(opt$a.count, opt$ab.count, opt$ac.count, 
     opt$abc.count, opt$b.count, opt$bc.count, 
     opt$c.count)
 names(y) <- c("100","110","101","111","010","011","001")
 labels <- c(opt$a.label, opt$b.label, opt$c.label)
+
+# format
+if (opt$format==1){
+# png
+filename <- paste(opt$file, ".png", sep="")
+png(file = filename, bg = "transparent")
+
+} else {
+# pdf
+filename <- paste(opt$file, ".pdf", sep="")
+pdf(file = filename, 
+	bg = "white")
+}
+
+# plot
 plot.new()
 plotVenn3d(y, 
           labels,
-          Colors=my.fill, 
+          Colors = my.fill, 
           Title = my.title)
-
 dev.off()
 }

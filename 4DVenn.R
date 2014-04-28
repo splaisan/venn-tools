@@ -44,8 +44,8 @@ option_list <- list(
               help="counts for AB-intersect [default: %default]"),  
   make_option(c("-f", "--ac.count"), type="integer", default=0,
               help="counts for ACB-intersect [default: %default]"),   
-  make_option(c("-g", "--ad.count"), type="integer", default=0,
-              help="counts for AD-intersect [default: %default]"), 
+  make_option(c("-G", "--ad.count"), type="integer", default=0,
+              help="counts for AD-intersect (! use G and not g, due to a bug in RScript) [default: %default]"), 
   make_option(c("-j", "--bc.count"), type="integer", default=0,
               help="counts for BC-intersect [default: %default]"), 
   make_option(c("-k", "--bd.count"), type="integer", default=0,
@@ -72,7 +72,9 @@ option_list <- list(
               help="label for D [default: %default]"),
   make_option(c("-t", "--title"), type="character",
               help="Graph Title [default: null]"),
-  make_option(c("-o", "--file"), type="character", default="4Dvenn.png",
+  make_option(c("-x", "--format"), type="integer", default=1,
+              help="file format for output 1:PNG, 2:PDF [default: %default]"),
+  make_option(c("-o", "--file"), type="character", default="4Dvenn",
               help="file name for output [default: %default]"),
   make_option(c("-u", "--fill"), type="character", default="3",
               help="fill with 1:colors, 2:greys or 3:white [default: %default]")          
@@ -119,8 +121,20 @@ my.fill <- ifelse( rep(opt$fill=="1", ncol),
 # title
 my.title <- ifelse(!is.null(opt$title), opt$title, "") 
 
+# format
+if (opt$format==1){
+# png
+filename <- paste(opt$file, ".png", sep="")
+png(file = filename, bg = "transparent")
+
+} else {
+# pdf
+filename <- paste(opt$file, ".pdf", sep="")
+pdf(file = filename, 
+	bg = "white")
+}
+
 # plot
-png(file = opt$file, bg = "transparent")
 plot.new()
 plotVenn4d(y, 
           labels,
