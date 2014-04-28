@@ -96,8 +96,7 @@ png(file = filename, bg = "transparent")
 } else {
 # pdf
 filename <- paste(opt$file, ".pdf", sep="")
-pdf(file = filename, 
-	bg = "white")
+pdf(file = filename, bg = "white")
 }
 
 # plot
