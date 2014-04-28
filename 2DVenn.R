@@ -1,7 +1,7 @@
 #!/usr/bin/RScript
 
 # Plots a 2D VENN from precomputed data
-# usage: 2Dvenn.R -a A-cnt -b B-cnt -i AB-cnt -A A-label -B B-label -t "My Title" -o myVenn.png -u 2 -x 1
+# usage: 2Dvenn.R -a A-cnt -b B-cnt -i AB-cnt -A A-label -B B-label -t "My Title" -o myVenn -u 2 -x 1
 
 # counts are epected in the order
 # "10","11","01"

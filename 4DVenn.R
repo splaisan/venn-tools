@@ -12,9 +12,10 @@
 # extra arguments: A-label B-label C-label D-label Title (opt)
 
 # example command:
-# 4DVenn.R -A 1 -B 2 -C 3 -D 4 -E 5 -F 6 -G 7 -H 8 -I 9 
-#   -J 10 -K 11 -L 12 -M 13 -N 14 -O 15 
-#   -P "grA" -Q "grB" -R "grC" -S "grD" -T "4way-Venn" -o "4way.png"
+# 4DVenn.R -a 1 -b 2 -c 3 -d 4 -e 5 -f 6 -G 7 -i 8 -j 9 
+#   -k 10 -l 11 -m 12 -n 13 -p 14 -q 15 
+#   -A "grA" -B "grB" -C "grC" -D "grD" -t "4way-Venn" 
+#   -o "my_4wayVenn" -u 1 -x 1
 #
 # Stephane Plaisance VIB-BITS April-11-2014 v1.0
 

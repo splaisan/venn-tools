@@ -4,7 +4,7 @@
 # usage: 3Dvenn.R -a A-cnt -d AB-cnt -e AC-cnt 
 #  -i ABC-cnt -b B-cnt -f BC-cnt -c C-nct
 #  -A A-label -B B-label -C C-label 
-#  -t "Title (opt)" -o my3Dvenn.png -U 2
+#  -t "Title (opt)" -o my3Dvenn -u 2 -x 1
 
 # counts are expected in the order
 # "100","110","101","111","010","011","001"
