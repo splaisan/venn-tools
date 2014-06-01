@@ -76,7 +76,7 @@ The output of the three scripts with default parameters (empty venn plots)
 ------------
 enjoy!
 
-<h4>Please send comments and feedback to [mailto:bits@vib.be](bits@vib.be)</h4>
+<h4>Please send comments and feedback to [bits@vib.be](mailto:bits@vib.be)</h4>
 ------------
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png?raw=true)
