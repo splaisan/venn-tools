@@ -73,6 +73,8 @@ option_list <- list(
               help="label for D [default: %default]"),
   make_option(c("-t", "--title"), type="character",
               help="Graph Title [default: null]"),
+  make_option(c("-P", "--percent"), type="integer", default=0,
+              help="express in percent of total counts [default: %default]"),
   make_option(c("-x", "--format"), type="integer", default=1,
               help="file format for output 1:PNG, 2:PDF [default: %default]"),
   make_option(c("-o", "--file"), type="character", default="4Dvenn",
@@ -96,6 +98,12 @@ y=c(opt$b.count, opt$c.count,
     opt$ac.count, opt$bd.count,
     opt$acd.count, opt$abd.count,
     opt$ad.count)
+
+# optional percent values instead of counts
+if(opt$percent==1){
+	tot<- sum(y)
+	y <- round(100*y/tot,2)
+	}
 
 names(y) <- c("0100","0010",
               "0110",

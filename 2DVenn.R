@@ -39,6 +39,8 @@ option_list <- list(
               help="label for B"), 
   make_option(c("-t", "--title"), type="character",
               help="Graph Title"),
+  make_option(c("-P", "--percent"), type="integer", default=0,
+              help="express in percent of total counts [default: %default]"),
   make_option(c("-x", "--format"), type="integer", default=1,
               help="file format for output 1:PNG, 2:PDF [default: %default]"),
   make_option(c("-o", "--file"), type="character", default="2Dvenn",
@@ -66,6 +68,16 @@ my.fill <- ifelse( rep(opt$fill=="1", ncol),
 # title
 my.title <- ifelse(!is.null(opt$title), opt$title, "") 
 
+# "A.","B.","AB"
+
+y=c(opt$a.count, opt$b.count, opt$ab.count)
+
+# optional percent values instead of counts
+if(opt$percent==1){
+	tot<- sum(y)
+	y <- round(100*y/tot,2)
+	}
+
 # format
 if (opt$format==1){
 # png
@@ -80,7 +92,7 @@ pdf(file = filename, bg = "white")
 
 # plot
 plot.new()
-plotVenn2d(c(opt$a.count, opt$b.count, opt$ab.count), 
+plotVenn2d(y, 
            labels = c(opt$a.label, opt$b.label),
            Colors = my.fill,
            Title = my.title, 

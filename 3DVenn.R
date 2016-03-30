@@ -52,6 +52,8 @@ option_list <- list(
               help="label for C"),
   make_option(c("-t", "--title"), type="character",
               help="Graph Title"),
+  make_option(c("-P", "--percent"), type="integer", default=0,
+              help="express in percent of total counts [default: %default]"),
   make_option(c("-x", "--format"), type="integer", default=1,
               help="file format for output 1:PNG, 2:PDF [default: %default]"),
   make_option(c("-o", "--file"), type="character", default="3Dvenn",
@@ -81,9 +83,17 @@ my.fill <- ifelse( rep(opt$fill=="1", ncol),
 my.title <- ifelse(!is.null(opt$title), opt$title, "")
 
 # "A..","AB.","A.C","ABC",".B.",".BC","..C"
+
 y=c(opt$a.count, opt$ab.count, opt$ac.count, 
     opt$abc.count, opt$b.count, opt$bc.count, 
     opt$c.count)
+
+# optional percent values instead of counts
+if(opt$percent==1){
+	tot<- sum(y)
+	y <- round(100*y/tot,2)
+	}
+
 names(y) <- c("100","110","101","111","010","011","001")
 labels <- c(opt$a.label, opt$b.label, opt$c.label)
 
