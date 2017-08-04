@@ -3,7 +3,7 @@
 # Plots a 2D VENN from precomputed data
 # usage: 2Dvenn.R -a A-cnt -b B-cnt -i AB-cnt -A A-label -B B-label -t "My Title" -o myVenn -u 2 -x 1
 
-# counts are epected in the order
+# counts are expected in the order
 # "10","11","01"
 # extra arguments: A-label B-label Title (opt)
 #
@@ -98,5 +98,5 @@ plotVenn2d(y,
            Title = my.title, 
            shrink = 1, rot=180, radius= c(1,1), resizePlot = 1, 
            reverseLabelOrdering=TRUE)
-dev.off()
+result <- dev.off()
 }

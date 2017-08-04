@@ -44,7 +44,7 @@ option_list <- list(
   make_option(c("-e", "--ab.count"), type="integer", default=0,
               help="counts for AB-intersect [default: %default]"),  
   make_option(c("-f", "--ac.count"), type="integer", default=0,
-              help="counts for ACB-intersect [default: %default]"),   
+              help="counts for AC-intersect [default: %default]"),   
   make_option(c("-G", "--ad.count"), type="integer", default=0,
               help="counts for AD-intersect (! use G and not g, due to a bug in RScript) [default: %default]"), 
   make_option(c("-j", "--bc.count"), type="integer", default=0,
@@ -148,5 +148,5 @@ plotVenn4d(y,
           labels,
           Colors = my.fill, 
           Title = my.title)
-dev.off()
+result <- dev.off()
 }

@@ -115,5 +115,5 @@ plotVenn3d(y,
           labels,
           Colors = my.fill, 
           Title = my.title)
-dev.off()
+result <- dev.off()
 }

@@ -1,0 +1,6 @@
+# r.package.info for GenePatternServer integration
+# package,requested_version,archive_name,src_URL,Mac_URL,Windows_URL
+getopt
+optparse
+grid
+colorfulVennPlot
