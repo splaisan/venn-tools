@@ -1,4 +1,4 @@
-#!/usr/bin/RScript
+#!/usr/bin/env RScript
 
 # plots a 3D VENN from precomputed data
 # usage: 3Dvenn.R -a A-cnt -d AB-cnt -e AC-cnt 
