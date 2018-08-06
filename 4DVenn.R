@@ -1,4 +1,4 @@
-#!/usr/bin/RScript
+#!/usr/bin/env RScript
 
 # plots a 4D VENN from precomputed data
 # usage: 4Dvenn.R -a .. to .. -u (see below)
