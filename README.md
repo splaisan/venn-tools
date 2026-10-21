@@ -1,4 +1,4 @@
-[(BITS-VIB)](https://github.com/BITS-VIB)
+(BITS-VIB)
 venn-tools
 ==========
 
